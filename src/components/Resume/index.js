@@ -4,7 +4,7 @@ import MyResume from "../../assets/resume.pdf";
 function Resume() {
 
     return (
-        <section class="resume">
+        <section id="resume" class="resume">
             <div>
                 <h1>Resume</h1>
                 <h3>Download my <a href={MyResume}>resume</a></h3>
