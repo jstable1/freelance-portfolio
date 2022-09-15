@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f42d6a15.css",
+    "main.js": "/react-portfolio/static/js/main.f6326ffb.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/run-buddy.jpeg": "/react-portfolio/static/media/run-buddy.6c22012a757eb7d158a1.jpeg",
+    "static/media/2doozies.jpeg": "/react-portfolio/static/media/2doozies.f3ceb7e9f66f18820bd8.jpeg",
+    "static/media/chevron-pattern.jpeg": "/react-portfolio/static/media/chevron-pattern.8bd55512983137809903.jpeg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.27c2ce708dd6d61da5e1.pdf",
+    "static/media/Me.jpeg": "/react-portfolio/static/media/Me.550ec6df3daec76f520f.jpeg",
+    "static/media/budget-tracker.jpeg": "/react-portfolio/static/media/budget-tracker.ca7ffd08948f693d1143.jpeg",
+    "static/media/tech-blog.jpeg": "/react-portfolio/static/media/tech-blog.ae55e6ea8f711158f07c.jpeg",
+    "static/media/brain-food.jpeg": "/react-portfolio/static/media/brain-food.7893fad1735f3c030c9f.jpeg",
+    "static/media/note-taker.jpeg": "/react-portfolio/static/media/note-taker.eafad321f73f4eb93f37.jpeg",
+    "index.html": "/react-portfolio/index.html",
+    "main.f42d6a15.css.map": "/react-portfolio/static/css/main.f42d6a15.css.map",
+    "main.f6326ffb.js.map": "/react-portfolio/static/js/main.f6326ffb.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f42d6a15.css",
+    "static/js/main.f6326ffb.js"
+  ]
+}
