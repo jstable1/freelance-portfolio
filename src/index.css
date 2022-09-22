@@ -4,19 +4,21 @@
 }
 
 html {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 :root {
-  --primary-color: rgb(11 11 11);
-  --secondary-color: rgb(244 68 55);
-  --white: #ffffff;
+  --primary-color: #383838;
+  --secondary-color: #18818B;
+  --tertiary-color: #DBD4CB;
+  --pink-color: #DCB3AE;
 }
 
-main {
+/* main {
   color: var(--secondary-color);
   background-color: var(--primary-color);
-}
+} */
 
 /* HEADER STYLING START */
 header {
@@ -29,19 +31,19 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: var(--white);
+  color: var(--pink-color);
   margin: auto;
 }
 
 header a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--pink-color);
   padding: 15px;
 }
 
@@ -82,7 +84,7 @@ header a {
 }
 
 .about p {
-  /* padding-left: 0px; */
+  padding-left: 0px;
   font-size: 1.55vw;
   width: auto;
   margin: 10px;
@@ -100,12 +102,11 @@ header a {
   width: auto;
   padding: 20px;
   margin: 2vw;
-  background-color: var(--primary-color);
 }
 
 .contact h1 {
   margin-bottom: 10px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .contactFormOptions a, .contactFormOptions p {
@@ -113,7 +114,7 @@ header a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .flex-row {
@@ -175,11 +176,11 @@ label {
 
 .portfolio {
   text-align: center;
-  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .portfolioBoxes {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   width: 48vw;
   border-radius: 10px;
   margin: 10px 0px;
@@ -190,7 +191,7 @@ label {
   margin: auto;
   margin-top: 20px;
   height: 4vw;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .portfolio h2 {
@@ -212,7 +213,7 @@ label {
 }
 
 .portfolioIcons a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .portfolioImg {
@@ -221,23 +222,13 @@ label {
   height: 25vw;
   width: 42vw;
   margin: auto;
-  color: var(--primary-color);
   margin-bottom: 2vw;
-}
-
-.portfolioItemsBT h2 a {
-  color: var(--secondary-color);
-  text-decoration: none;
-  justify-content: space-around;
-  margin: 10px;
 }
 
 .resume {
   display: flex;
   flex-direction: column;
   margin: 2vw 3vw;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
 }
 
 .resume a {
@@ -246,13 +237,29 @@ label {
   font-style: italic;
 }
 
-.resume h1, .resume h2, .resume h3 {
+.resumeHeader {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.resume h2 {
   margin: 10px;
+}
+
+.resume h3 {
+  margin: auto;
+  padding-top: 20px;
 }
 
 .resume li {
   margin: 10px;
   margin-left: 30px;
+}
+
+.resumeProficiencies {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 section {
