@@ -4,7 +4,7 @@ import { BsGithub } from 'react-icons/bs';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import { HiInformationCircle } from 'react-icons/hi';
 
-function Portfolio() {
+const Portfolio = () => {
     return (
         <section id="work" class="portfolio">
             <h1>Portfolio</h1>
@@ -18,11 +18,11 @@ function Portfolio() {
                                     <div class="portfolioImg" style={{
                                     backgroundImage: `url(${project.img})`}}></div>
                                     <div class="portfolioIcons">
-                                        <div>
+                                        <p>
                                             <span class="hovertext" data-hover={project.information}>
                                                 <HiInformationCircle size={42} />
                                             </span>
-                                        </div>
+                                        </p>
                                         <a href={project.appLink} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt size={35}/></a>
                                         <a href={project.github} target="_blank" rel="noopener noreferrer"><BsGithub size={35}/></a>
                                     </div>

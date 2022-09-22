@@ -6,7 +6,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
-function App() {;
+const App = () => {;
 
   return (
     <div>

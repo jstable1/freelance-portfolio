@@ -1,7 +1,7 @@
 import React from "react";
 import MyResume from "../../assets/resume.pdf";
 
-function Resume() {
+const Resume = () => {
 
     return (
         <section id="resume" class="resume">

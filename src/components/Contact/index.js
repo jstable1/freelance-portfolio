@@ -2,10 +2,10 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { MdOutlinePhoneIphone } from 'react-icons/md';
 
-function Contact() {
+const Contact = () => {
 
   return (
-    <section class="contact">
+    <section id="contact-me" class="contact">
       <h1>Contact Me:</h1>
       <div class="contactFormOptions">
         <a href="mailto:jessica.stabler@gmail.com"><AiOutlineMail size={35}/><span>jessica.stabler@gmail.com</span></a>

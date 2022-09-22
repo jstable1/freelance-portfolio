@@ -1,7 +1,7 @@
 import React from "react";
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
 
-function Footer() {
+const Footer = () => {
     return (
         <footer id="contact-me" class="flex-row">
             <div class="contact-options section-body">

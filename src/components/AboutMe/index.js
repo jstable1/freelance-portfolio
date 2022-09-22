@@ -1,7 +1,7 @@
 import React from "react";
 import MeImg from "../../assets/images/Me.jpeg";
 
-function AboutMe() {
+const AboutMe = () => {
   return (
     <section id="about-me" class="aboutSection">
       <h1 class="aboutHeading">About Me</h1>
