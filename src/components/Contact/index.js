@@ -36,13 +36,13 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <section id="contact-me" class="contact">
+      <section id="contact-me" className="contact">
         <h1>Contact Me</h1>
         <div className='contactContainers'>
           <div>
             <form action="#" className='contactForm'>
               <label>Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name.."
+              <input type="text" id="name" name="name" placeholder="Your name"
                 value={this.state.name}
                 onChange={e => this.setState({ name: e.target.value })}
               />
@@ -56,11 +56,11 @@ class Contact extends React.Component {
   
   
               <label>Message</label>
-              <textarea id="message" name="message" placeholder="Write something.."
+              <textarea id="message" name="message" placeholder="Message"
                 onChange={e => this.setState({ message: e.target.value })}
                 value={this.state.message}
               ></textarea>
-              <input type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
+              <input type="submit" className="submitButton" onClick={e => this.handleFormSubmit(e)} value="Submit" />
               
               <div>
                 {this.state.mailSent &&
@@ -69,7 +69,7 @@ class Contact extends React.Component {
               </div>
             </form >
           </div>
-          <div class="contactOptions">
+          <div className="contactOptions">
             <a href="mailto:jessica.stabler@gmail.com"><AiOutlineMail size={35}/><span>jessica.stabler@gmail.com</span></a>
             <p><MdOutlinePhoneIphone size={35}/><span>801-230-4660</span></p>
           </div>

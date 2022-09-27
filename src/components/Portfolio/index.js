@@ -6,20 +6,20 @@ import { HiInformationCircle } from 'react-icons/hi';
 
 const Portfolio = () => {
     return (
-        <section id="work" class="portfolio">
+        <section id="work" className="portfolio">
             <h1>Portfolio</h1>
-            <div class="flex-row">
-                <div class="work-boxes section-body">
+            <div className="flex-row">
+                <div className="work-boxes section-body">
                     {
                         Projects.map(function(project){
                             return (
-                                <div class="portfolioBoxes">
+                                <div className="portfolioBoxes">
                                     <h2>{project.name}</h2>
-                                    <div class="portfolioImg" style={{
+                                    <div className="portfolioImg" style={{
                                     backgroundImage: `url(${project.img})`}}></div>
-                                    <div class="portfolioIcons">
+                                    <div className="portfolioIcons">
                                         <p>
-                                            <span class="hovertext" data-hover={project.information}>
+                                            <span className="hovertext" data-hover={project.information}>
                                                 <HiInformationCircle size={42} />
                                             </span>
                                         </p>

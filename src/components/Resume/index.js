@@ -4,9 +4,9 @@ import MyResume from "../../assets/resume.pdf";
 const Resume = () => {
 
     return (
-        <section id="resume" class="resume">
+        <section id="resume" className="resume">
             <h1>Download my <a href={MyResume}>resume</a></h1>
-            <div class="resumeProficiencies">
+            <div className="resumeProficiencies">
                 <div>
                     <h2>Front-end Proficiencies</h2>
                     <ul>
