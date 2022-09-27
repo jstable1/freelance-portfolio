@@ -10,10 +10,9 @@ html {
 }
 
 :root {
-  --primary-color: #383838;
-  --secondary-color: #18818B;
-  --tertiary-color: #DBD4CB;
-  --pink-color: #DCB3AE;
+  --primary-color:#FEE715FF;
+  --secondary-color: #101820FF;
+  --tertiary-color: #FFFF;
 }
 
 /* HEADER STYLING START */
@@ -33,13 +32,13 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 36px;
-  color: var(--pink-color);
+  color: var(--secondary-color);
   margin: auto;
 }
 
 header a {
   text-decoration: none;
-  color: var(--pink-color);
+  color: var(--secondary-color);
   padding: 15px;
 }
 
@@ -267,29 +266,6 @@ section {
 
 .section-body {
   width: 100%;
-}
-
-.submitButton {
-  background-color: var(--pink-color);
-  background-image: linear-gradient(45deg, var(--pink-color) 0%, var(--primary-color) 52%, var(--pink-color) 90%);
-  transition: all .5s ease-out;
-  background-size: 1px 100px;
-  background-position: 0 -10px;
-  color: var(--tertiary-color);
-  font-weight: bolder;
-  font-size: larger;
-}
-
-.submitButton:hover {
-  background-position: 1px -50px;
-}
-
-textarea {
-  width: 45vw;
-  margin-top: 10px;
-  padding: 5px;
-  max-width: 45vw;
-  border-radius: 5px;
 }
 
 .work-boxes {
