@@ -10,8 +10,7 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      fname: '',
-      lname: '',
+      name: '',
       email: '',
       message: '',
       mailSent: false,
@@ -34,13 +33,14 @@ class Contact extends React.Component {
     })
     .catch(error => this.setState({ error: error.message }));
   };
+
   render() {
     return (
       <section id="contact-me" class="contact">
         <h1>Contact Me</h1>
         <div className='contactContainers'>
           <div>
-            <form action="#" >
+            <form action="#" className='contactForm'>
               <label>Name</label>
               <input type="text" id="name" name="name" placeholder="Your name.."
                 value={this.state.name}
@@ -69,7 +69,7 @@ class Contact extends React.Component {
               </div>
             </form >
           </div>
-          <div class="contactFormOptions">
+          <div class="contactOptions">
             <a href="mailto:jessica.stabler@gmail.com"><AiOutlineMail size={35}/><span>jessica.stabler@gmail.com</span></a>
             <p><MdOutlinePhoneIphone size={35}/><span>801-230-4660</span></p>
           </div>

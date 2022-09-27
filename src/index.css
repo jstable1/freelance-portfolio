@@ -15,11 +15,6 @@ html {
   --pink-color: #DCB3AE;
 }
 
-/* main {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-} */
-
 /* HEADER STYLING START */
 header {
   display: flex;
@@ -106,14 +101,25 @@ header a {
 
 .contactContainers {
   display: flex;
+  width: 90%;
+  padding: 20px;
 }
 
 .contact h1 {
   margin: auto;
-
 }
 
-.contactFormOptions a, .contactFormOptions p {
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactOptions {
+  margin-left: 12vw;
+  margin-top: 6vw;
+}
+
+.contactOptions a, .contactOptions p {
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -166,16 +172,12 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 5px;
-}
-
-.inputBoxes {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
+  border-radius: 5px;
 }
 
 label {
   font-size: large;
+  font-weight: bold;
 }
 
 .portfolio {
@@ -279,9 +281,11 @@ section {
 }
 
 textarea {
-  width: 50vw;
+  width: 45vw;
   margin-top: 10px;
   padding: 5px;
+  max-width: 45vw;
+  border-radius: 5px;
 }
 
 .work-boxes {
