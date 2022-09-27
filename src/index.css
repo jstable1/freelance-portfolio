@@ -104,9 +104,13 @@ header a {
   margin: 2vw;
 }
 
+.contactContainers {
+  display: flex;
+}
+
 .contact h1 {
-  margin-bottom: 10px;
-  color: var(--primary-color);
+  margin: auto;
+
 }
 
 .contactFormOptions a, .contactFormOptions p {
@@ -243,13 +247,13 @@ label {
   flex-direction: row;
 }
 
-.resume h2 {
-  margin: 10px;
-}
-
-.resume h3 {
+.resume h1 {
   margin: auto;
   padding-top: 20px;
+}
+
+.resume h2 {
+  margin: 10px;
 }
 
 .resume li {

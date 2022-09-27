@@ -5,6 +5,7 @@ const Resume = () => {
 
     return (
         <section id="resume" class="resume">
+            <h1>Download my <a href={MyResume}>resume</a></h1>
             <div class="resumeProficiencies">
                 <div>
                     <h2>Front-end Proficiencies</h2>
@@ -30,7 +31,6 @@ const Resume = () => {
                     </ul>
                 </div>
             </div>
-            <h3>Download my <a href={MyResume}>resume</a></h3>
         </section>
     );
 }
