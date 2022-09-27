@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/freelance-portfolio/static/css/main.da99ab4a.css",
-    "main.js": "/freelance-portfolio/static/js/main.de08ab78.js",
+    "main.css": "/freelance-portfolio/static/css/main.17c9d268.css",
+    "main.js": "/freelance-portfolio/static/js/main.9666ec08.js",
     "static/js/787.e0ca2559.chunk.js": "/freelance-portfolio/static/js/787.e0ca2559.chunk.js",
     "static/media/2doozies.jpeg": "/freelance-portfolio/static/media/2doozies.f3ceb7e9f66f18820bd8.jpeg",
     "static/media/2doozies2.0.jpeg": "/freelance-portfolio/static/media/2doozies2.0.68a587a8661063931dfd.jpeg",
@@ -12,12 +12,12 @@
     "static/media/brain-food.jpeg": "/freelance-portfolio/static/media/brain-food.7893fad1735f3c030c9f.jpeg",
     "static/media/note-taker.jpeg": "/freelance-portfolio/static/media/note-taker.eafad321f73f4eb93f37.jpeg",
     "index.html": "/freelance-portfolio/index.html",
-    "main.da99ab4a.css.map": "/freelance-portfolio/static/css/main.da99ab4a.css.map",
-    "main.de08ab78.js.map": "/freelance-portfolio/static/js/main.de08ab78.js.map",
+    "main.17c9d268.css.map": "/freelance-portfolio/static/css/main.17c9d268.css.map",
+    "main.9666ec08.js.map": "/freelance-portfolio/static/js/main.9666ec08.js.map",
     "787.e0ca2559.chunk.js.map": "/freelance-portfolio/static/js/787.e0ca2559.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da99ab4a.css",
-    "static/js/main.de08ab78.js"
+    "static/css/main.17c9d268.css",
+    "static/js/main.9666ec08.js"
   ]
 }
