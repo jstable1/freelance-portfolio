@@ -6,6 +6,7 @@
 html {
   background-color: var(--secondary-color);
   color: var(--primary-color);
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -99,24 +100,12 @@ header a {
   margin: 2vw;
 }
 
-.contactContainers {
-  display: flex;
-  width: 90%;
-  padding: 20px;
-}
-
 .contact h1 {
   margin: auto;
 }
 
-.contactForm {
-  display: flex;
-  flex-direction: column;
-}
-
 .contactOptions {
-  margin-left: 12vw;
-  margin-top: 6vw;
+  margin-top: 3vw;
 }
 
 .contactOptions a, .contactOptions p {
