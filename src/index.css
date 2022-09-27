@@ -33,7 +33,8 @@ header h1 {
   font-weight: bold;
   font-size: 36px;
   color: var(--secondary-color);
-  margin: auto;
+  margin: 10px;
+  margin-left: 25px;
 }
 
 header a {
@@ -270,8 +271,26 @@ section {
 
 .splashPage {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+}
+
+.splashText {
+  width: 40%;
+  margin-left: 15vw;
+}
+
+.splashText h1 {
+  font-size: xx-large;
+}
+
+.splashText a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.splashImg {
+  width: 30%;
+  margin: auto;
 }
 
 .work-boxes {
