@@ -10,9 +10,9 @@ html {
 }
 
 :root {
-  --primary-color:#FEE715FF;
-  --secondary-color: #101820FF;
-  --tertiary-color: #FFFF;
+  --primary-color:#3A3637;
+  --secondary-color: #FFFF;
+  --tertiary-color: #FCB43A;
 }
 
 /* HEADER STYLING START */
@@ -266,6 +266,12 @@ section {
 
 .section-body {
   width: 100%;
+}
+
+.splashPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .work-boxes {
