@@ -27,6 +27,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--primary-color);
+  z-index: 100;
 }
 
 header h1 {
@@ -89,6 +90,18 @@ header a {
 .aboutSection {
   border-radius: 15px;
 }
+
+.beeContainer {
+  margin: 5vw;
+  width: 100%;
+  color: var(--tertiary-color)
+}
+
+/* .bumblebee {
+  position: absolute;
+  top: var(--offset);
+  left: calc(50% - var(--logo-size) / 2);
+} */
 
 .contact {
   display: flex;
@@ -305,8 +318,12 @@ section {
   font-weight: bold;
   font-size: 45px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.contact-options a {
+  padding: 40px;
 }
 
 footer {
@@ -314,7 +331,7 @@ footer {
   flex-wrap: wrap;
   padding-top: 10px;
   background-color: var(--primary-color);
-  height: 10vw;
+  height: auto;
 }
 
 footer a {

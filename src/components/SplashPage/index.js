@@ -3,6 +3,7 @@ import MyResume from '../../assets/resume.pdf';
 import { GiBee } from 'react-icons/gi';
 import { MdEmail } from 'react-icons/md';
 import { FaFileDownload } from 'react-icons/fa';
+import { MdOutlinePhoneIphone } from 'react-icons/md';
 
 const helloArray = ['Hello', 'Bonjour', 'Hola', 'Guten Tag', 'Salve', 'Konnichiwa'];
 
@@ -29,6 +30,9 @@ class SplashPage extends Component {
 
         return (
             <section className="splashPage">
+                <div className="beeContainer">
+                    <GiBee size={56}/>
+                </div>
                 <div className="splashText">
                     <h1>{changingText}!</h1> 
                     <h1>I'm Jessica, a Full Stack Web Developer based in Herriman, UT.</h1>
@@ -39,6 +43,9 @@ class SplashPage extends Component {
                     </h4>
                     <h4>
                         <span><FaFileDownload/> <a href={MyResume}>resume</a></span>
+                    </h4>
+                    <h4>
+                        <p><MdOutlinePhoneIphone/><span>801-230-4660</span></p>
                     </h4>
                 </div>
                 <div className="splashImg">insert avatar here</div>
