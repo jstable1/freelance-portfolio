@@ -92,16 +92,37 @@ header a {
 }
 
 .beeContainer {
-  margin: 5vw;
+  margin: 0 5vw 5vw 5vw;
   width: 100%;
-  color: var(--tertiary-color)
+  color: var(--tertiary-color);
+  position: relative;
 }
 
-/* .bumblebee {
+.bumblebee {
   position: absolute;
-  top: var(--offset);
-  left: calc(50% - var(--logo-size) / 2);
-} */
+  animation: fly 8s linear 0s infinite alternate;
+}
+
+  @keyframes fly {
+    from { left: 100%; }
+    to { left: 0; }
+
+    from { bottom: 70px; }
+    to { bottom: 100%; }
+      
+    from {
+      transform : scale(1);
+      opacity   : 1;
+    }
+    50% {
+        transform : scale(0.75);
+        opacity   : 0.25;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+    }
+  };
 
 .contact {
   display: flex;
