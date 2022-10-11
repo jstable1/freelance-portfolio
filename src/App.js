@@ -4,7 +4,6 @@ import SplashPage from './components/SplashPage';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import AboutMe from './components/AboutMe';
-import Resume from './components/Resume';
 
 const App = () => {;
 
@@ -14,7 +13,6 @@ const App = () => {;
         <SplashPage/>
         <AboutMe/>
         <Portfolio/>
-        <Resume/>
         <Footer/>
     </div>
   );
