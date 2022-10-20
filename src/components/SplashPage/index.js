@@ -35,9 +35,9 @@ class SplashPage extends Component {
                 </div>
                 <div className="splashText">
                     <h1>{changingText}!</h1> 
-                    <h1>I'm Jessica, a Full Stack Web Developer based in Herriman, UT.</h1>
-                    <h2>Creative. Detail-Oriented. Organized. Hard-working.</h2>
-                    <h3>Technical Skills: HTML/HTML5, CSS, JavaScript, JQuery, Bootstrap, APIs, Node.js, Express.js, SQL: MySQL/Sequelize/Postgres, MongoDB/Mongoose, React, GraphQL, and Python</h3>
+                    <h1>I'm Jessica, a Full Stack Web Developer based in Herriman, UT.</h1><br></br>
+                    <h2>Creative. Detail-Oriented. Organized. Hard-working.</h2><br></br>
+                    <h3>Technical Skills: HTML/HTML5, CSS, JavaScript, JQuery, Bootstrap, APIs, Node.js, Express.js, SQL: MySQL/Sequelize/Postgres, MongoDB/Mongoose, React, GraphQL, and Python</h3><br></br>
                     <h4>
                         <MdEmail/> <a href="mailto:jessica.stabler@gmail.com">jessica.stabler@gmail.com</a>
                     </h4>
