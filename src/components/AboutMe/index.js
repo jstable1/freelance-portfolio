@@ -1,12 +1,10 @@
 import React from "react";
-import MeImg from "../../assets/images/Me.jpeg";
 
 const AboutMe = () => {
   return (
     <section id="about-me" className="aboutSection">
       <h1 className="aboutHeading">About Me</h1>
       <div className="about">
-        <img src={MeImg} className="" style={{ width: "10%" }} alt="me" />
         <p>
           Full-stack Web Developer leveraging legal and financial industry
           background to build user-friendly web applications. I am very adaptable

@@ -75,11 +75,6 @@ header a {
   margin-top: 20px;
 }
 
-.about img {
-  width: auto;
-  margin: 10px;
-}
-
 .about p {
   padding-left: 0px;
   font-size: 1.55vw;
@@ -469,7 +464,6 @@ section {
 }
 
 .splashImg {
-  width: 30%;
   margin: auto;
 }
 
