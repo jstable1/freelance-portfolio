@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MyResume from '../../assets/resume.pdf';
-import { GiBee } from 'react-icons/gi';
 import { MdEmail } from 'react-icons/md';
 import { FaFileDownload } from 'react-icons/fa';
 import { MdOutlinePhoneIphone } from 'react-icons/md';
@@ -34,7 +33,7 @@ class SplashPage extends Component {
                     <h1>{changingText}!</h1> 
                     <h1>I'm Jessica, a Full Stack Web Developer based in Herriman, UT.</h1><br></br>
                     <h2>Creative. Detail-Oriented. Organized. Hard-working.</h2><br></br>
-                    <h3>Technical Skills: HTML/HTML5, CSS: Custom/Bootstrap/Bulma, JavaScript, JQuery, Bootstrap, APIs, Node.js, Express.js, SQL: MySQL/Sequelize/Postgres, MongoDB/Mongoose, React, GraphQL, and Python</h3><br></br>
+                    <h3>Technical Skills: HTML/HTML5, CSS: Custom/Bootstrap/Bulma, JavaScript, JQuery, APIs, Node.js, Express.js, SQL: MySQL/Sequelize/Postgres, MongoDB/Mongoose, React.js, GraphQL, and Python</h3><br></br>
                     <h4>
                         <MdEmail/><a href="mailto:jessica.stabler@gmail.com">&nbsp; jessica.stabler@gmail.com</a>
                     </h4>
