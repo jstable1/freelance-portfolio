@@ -39,13 +39,13 @@ class SplashPage extends Component {
                     <h2>Creative. Detail-Oriented. Organized. Hard-working.</h2><br></br>
                     <h3>Technical Skills: HTML/HTML5, CSS: Custom/Bootstrap/Bulma, JavaScript, JQuery, Bootstrap, APIs, Node.js, Express.js, SQL: MySQL/Sequelize/Postgres, MongoDB/Mongoose, React, GraphQL, and Python</h3><br></br>
                     <h4>
-                        <MdEmail/> <a href="mailto:jessica.stabler@gmail.com">jessica.stabler@gmail.com</a>
+                        <MdEmail/><a href="mailto:jessica.stabler@gmail.com">&nbsp; jessica.stabler@gmail.com</a>
                     </h4>
                     <h4>
-                        <span><FaFileDownload/> <a href={MyResume}>resume</a></span>
+                        <FaFileDownload/> <a href={MyResume}>&nbsp; resume</a>
                     </h4>
                     <h4>
-                        <p><MdOutlinePhoneIphone/><span>801-230-4660</span></p>
+                        <p><MdOutlinePhoneIphone/>&nbsp; 801-230-4660</p>
                     </h4>
                 </div>
                 <div className="splashImg">
