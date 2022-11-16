@@ -21,7 +21,7 @@ class SplashPage extends Component {
         }, 10000);
     }
 
-    componentDidUnmount() {
+    componentWillUnmount() {
         clearInterval(this.timeout);
     }
 
@@ -48,7 +48,26 @@ class SplashPage extends Component {
                         <p><MdOutlinePhoneIphone/><span>801-230-4660</span></p>
                     </h4>
                 </div>
-                <div className="splashImg">insert avatar here</div>
+                <div className="splashImg">
+                    <div className="panda">
+                        <div className="pandaFace">
+                            <div className="pandaEarLeft"></div>
+                            <div className="pandaEarRight"></div>
+                            <div className="pandaEyeLeft">
+                                <div className="pandaEyeball"></div>
+                            </div>
+                            <div className="pandaEyeRight">
+                                <div className="pandaEyeball"></div>
+                            </div>
+                            <div className="pandaNose"></div>
+                        </div>
+                        <div className="pandaHandLeft"></div>
+                        <div className="pandaHandRight"></div>
+                        <div className="pandaLegLeft"></div>
+                        <div className="pandaLegRight"></div>
+                        <div className="pandaShadow"></div>
+                    </div>
+                </div>
             </section>
         );
     }

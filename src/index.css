@@ -215,6 +215,140 @@ label {
   font-weight: bold;
 }
 
+.panda {
+  height: 120px;
+  width: 80px;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+.pandaFace {
+  position: relative;
+  background-color: white;
+  border: 5px solid black;
+  height: 90px;
+  width: 110px;
+  border-radius: 50%;
+  bottom: 30px;
+  right: 20px;
+}
+
+.pandaEarLeft, .pandaEarRight {
+  position: relative;
+  background-color: black;
+  height: 25px;
+  width: 40px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.pandaEarLeft {
+  transform: rotate(145deg);
+  bottom: 13px;
+  right: 8px;
+}
+
+.pandaEarRight {
+  transform: rotate(-145deg);
+  bottom: 38px;
+  left: 78px;
+}
+
+.pandaEyeLeft, .pandaEyeRight {
+  position: relative;
+  background-color: black;
+  width: 28px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.pandaEyeball {
+  position: relative;
+  top: 8px;
+  left: 7px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.pandaEyeLeft {
+  bottom: 30px;
+  left: 10px;
+  transform: rotate(25deg);
+}
+
+.pandaEyeRight {
+  bottom: 63px;
+  left: 72px;
+  transform: rotate(-25deg);
+}
+
+.pandaHandLeft, .pandaHandRight {
+  position: relative;
+  width: 25px;
+  height: 43px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.pandaHandLeft {
+  transform: rotate(90deg);
+  bottom: 28px;
+  right: 12px;
+  animation: pandaWave 3s infinite;
+  transform-origin: top;
+}
+
+@keyframes pandaWave {
+  50%{
+    transform: rotate(120deg);
+  }
+}
+
+.pandaHandRight {
+ transform: rotate(-90deg);
+ bottom: 92px;
+ left: 89px;
+}
+
+.pandaLegLeft, .pandaLegRight {
+  position: relative;
+  background-color: black;
+  width: 17px;
+  height: 25px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.pandaLegLeft {
+  bottom: 65px;
+  left: 15px;
+}
+
+.pandaLegRight {
+  bottom: 90px;
+  left: 49px;
+}
+
+.pandaNose {
+  position: relative;
+  height: 8px;
+  width: 15px;
+  background-color: black;
+  border-radius: 15px;
+  bottom: 65px;
+  left: 48px;
+}
+
+.pandaShadow {
+  position: relative;
+  background-color: rgba(0,0,0,0.2);
+  height: 30px;
+  width: 100px;
+  border-radius: 50%;
+  bottom: 105px;
+  right: 10px;
+}
+
 .portfolio {
   text-align: center;
   color: var(--secondary-color);
