@@ -6,27 +6,18 @@ const AboutMe = () => {
       <h1 className="aboutHeading">About Me</h1>
       <div className="about">
         <p>
-          Full-stack Web Developer leveraging legal and financial industry
-          background to build user-friendly web applications. I am very adaptable
-          and have the ability to easily learn new coding languages due to my
-          outstanding research skills honed by seven years of legal experience.
-          I am looking to leverage my development skills to provide small
-          businesses with web applications that support their metrics. I earned a
-          certificate in full stack web development from the University of Utah
-          and am proficient in HTML, CSS, Node, Express, MongoDB, MySQL and React.
-          I am known as being an innovative problem solver who collaborates with
-          co-workers to determine the best possible solution to a task. These
-          skills have helped me approach programming challenges from different
-          angles to find the best solution. Successfully collaborated with a
-          development team to create a JavaScript application that recommends
-          podcasts and books based on a user's search parameters. My technical
-          aptitude in cutting-edge web technologies, combined with communication
-          skills and problem solving abilities, makes me a strong addition to any
-          engineering team.
+          Innovative web developer leveraging background in intellectual
+          property law to create efficient and user-friendly web applications.
+          Self-starter with a “hit the ground running” mentality who is
+          passionate about writing organized code. Adaptable and has the ability
+          to learn new coding languages due to outstanding research skills honed
+          by seven years of legal experience. Intensive experience in
+          object-oriented programming and both relational and non-relational
+          databases.
         </p>
       </div>
     </section>
   );
-}
+};
 
 export default AboutMe;
