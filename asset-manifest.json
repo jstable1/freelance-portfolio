@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/freelance-portfolio/static/css/main.5e0c8c2a.css",
-    "main.js": "/freelance-portfolio/static/js/main.2a1bdf66.js",
+    "main.js": "/freelance-portfolio/static/js/main.cd98299f.js",
     "static/js/787.e0ca2559.chunk.js": "/freelance-portfolio/static/js/787.e0ca2559.chunk.js",
     "static/media/2doozies.jpeg": "/freelance-portfolio/static/media/2doozies.f3ceb7e9f66f18820bd8.jpeg",
     "static/media/2doozies2.0.jpeg": "/freelance-portfolio/static/media/2doozies2.0.68a587a8661063931dfd.jpeg",
-    "static/media/resume.pdf": "/freelance-portfolio/static/media/resume.57f6749e8dc2c8e82d76.pdf",
+    "static/media/resume.pdf": "/freelance-portfolio/static/media/resume.9c0efd8519d04db92eed.pdf",
     "static/media/budget-tracker.jpeg": "/freelance-portfolio/static/media/budget-tracker.ca7ffd08948f693d1143.jpeg",
     "static/media/tech-blog.jpeg": "/freelance-portfolio/static/media/tech-blog.ae55e6ea8f711158f07c.jpeg",
     "static/media/brain-food.jpeg": "/freelance-portfolio/static/media/brain-food.7893fad1735f3c030c9f.jpeg",
     "static/media/note-taker.jpeg": "/freelance-portfolio/static/media/note-taker.eafad321f73f4eb93f37.jpeg",
     "index.html": "/freelance-portfolio/index.html",
     "main.5e0c8c2a.css.map": "/freelance-portfolio/static/css/main.5e0c8c2a.css.map",
-    "main.2a1bdf66.js.map": "/freelance-portfolio/static/js/main.2a1bdf66.js.map",
+    "main.cd98299f.js.map": "/freelance-portfolio/static/js/main.cd98299f.js.map",
     "787.e0ca2559.chunk.js.map": "/freelance-portfolio/static/js/787.e0ca2559.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e0c8c2a.css",
-    "static/js/main.2a1bdf66.js"
+    "static/js/main.cd98299f.js"
   ]
 }
