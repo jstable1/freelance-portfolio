@@ -30,9 +30,6 @@ class SplashPage extends Component {
 
         return (
             <section className="splashPage">
-                <div className="beeContainer">
-                    <GiBee size={56} className="bumblebee"/>
-                </div>
                 <div className="splashText">
                     <h1>{changingText}!</h1> 
                     <h1>I'm Jessica, a Full Stack Web Developer based in Herriman, UT.</h1><br></br>

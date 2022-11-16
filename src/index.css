@@ -85,51 +85,6 @@ header a {
   border-radius: 15px;
 }
 
-.beeContainer {
-  margin: 0 5vw 5vw 5vw;
-  width: 100%;
-  color: var(--tertiary-color);
-  position: relative;
-}
-
-.bumblebee {
-  position: absolute;
-  animation: fly 8s linear 0s infinite alternate;
-}
-
-  @keyframes fly {
-
-    /* makes bee fly left to right and goes up and down */
-    from { left: 100%; }
-    to { left: 0%; }
-
-    from { bottom: 70px; }
-    to { bottom: 100%; }
-    
-    /* makes bee fade */
-    from {
-      transform : scale(1);
-      opacity   : 1;
-    }
-    50% {
-        transform : scale(0.75);
-        opacity   : 0.25;
-    }
-    to {
-        transform : scale(1);
-        opacity   : 1;
-    }
-
-    /* makes bee flip around */
-    0% {
-      transform: perspective(400px) rotateY(0);
-    }
-
-    100% {
-        transform: perspective(400px) rotateY(180deg);
-    }
-  };
-
 .contact {
   display: flex;
   flex-direction: column;
